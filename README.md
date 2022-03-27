@@ -5,10 +5,14 @@
 
 
 
+This program has a fully operational CRUD for evey table and also has funcionalities to export pdf reports from sells and sellers
 
 
 
-- The `./mysql/mysql_dump.sql` file already has DDL/DML doing both creation of tables and insertion of mock data
+
+# Recreating the environment:
+
+- The `./mysql/mysql_dump.sql` file includes both DDL/DML creating tables and inserting mock data.
 
 <div align="center">
 
@@ -18,7 +22,20 @@
 <br></br>
 <br></br>
 
-- You can also generate *N* unique sells by filling the `Código`(code) and option under the `Automação`(automation) tab
+
+- You can also create it by yourself executing the scripts inside `./mysql/ddl_dml` folder respecting dependencies depicted in the following diagram.
+
+
+<div align="center">
+
+![image](./.src/mysql_diag.png)
+</div>
+
+<br></br>
+<br></br>
+
+
+- You can also generate *N* unique sells by filling the `Código`(code) and using the option under the `Automação`(automation) tab.
 
 
 <div align="center">
